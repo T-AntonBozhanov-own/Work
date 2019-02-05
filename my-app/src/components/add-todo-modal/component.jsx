@@ -21,8 +21,8 @@ class AddModal extends Component {
 
     onAddTodo = () => {
         const { addTodo, data } = this.props;
-        addTodo({ id: this.generateUUID(), date: moment.utc().format('DD/MM/YYYY HH:MM'), data: data} );
-        this.onClose();
+        data && addTodo({ id: this.generateUUID(), date: moment.utc().format('DD/MM/YY HH:MM:SS'), data: data} );
+        data && this.onClose();
     };
 
     onChange = (e) => {
@@ -38,9 +38,9 @@ class AddModal extends Component {
 
         return isOpen ? ReactDOM.createPortal(
             <div className="modal-container">
-                <div className="modal-container__close" onClick={this.onClose}>close</div>
-                <input className="modal-container__input" onChange={this.onChange} />
-                <span className="modal-container__add-button" onClick={this.onAddTodo}>add</span>
+                <div className="modal-container__close" onClick={this.onClose}>CLOSE</div>
+                <textarea className="modal-container__textarea" onChange={this.onChange} />
+                <span className="modal-container__add-button" onClick={this.onAddTodo}>ADD</span>
             </div>, document.getElementById('modal-container')
         ) : null
     }

@@ -25,6 +25,7 @@ class TodoList extends Component {
         const {
             todos,
             addTodo,
+            removeTodo,
         } = this.props;
 
         const list =
@@ -32,6 +33,7 @@ class TodoList extends Component {
                 <TodoRow
                     key={index}
                     todo={item}
+                    removeTodo={removeTodo}
                 />
             ));
 
@@ -41,7 +43,7 @@ class TodoList extends Component {
                     { list }
                 </div>
                 <span className="content__add-button" onClick={this.openModal}>
-                     add todo
+                     ADD TODO
                 </span>
                 <AddModal
                     addTodo={addTodo}

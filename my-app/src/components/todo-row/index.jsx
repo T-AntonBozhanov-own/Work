@@ -13,9 +13,16 @@ const propTypes = {
         date: PropTypes.number,
         data: PropTypes.string,
     }),
+    removeTodo: PropTypes.func,
 };
 
 class TodoRow extends Component {
+    removeTodo = () => {
+        const { removeTodo, todo } = this.props;
+
+        removeTodo(todo.id);
+    };
+
     render() {
         const {
             todo
@@ -29,9 +36,8 @@ class TodoRow extends Component {
                 <span className="todo-row-wrapper__data">
                     {todo.data}
                 </span>
-                <span className="todo-row-wrapper__controls">
-                    <input type="checkbox"/>
-                    <span>remove</span>
+                <span className="todo-row-wrapper__controls" onClick={this.removeTodo}>
+                    <span>DONE</span>
                 </span>
             </div>
         )

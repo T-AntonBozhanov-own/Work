@@ -11,18 +11,11 @@ export default (state = initialState, action) => {
                     action.payload,
                 ]
             );
-        //
-        // case assetConstants.ADD_ASSET_PENDING:
-        //     return {
-        //         ...state,
-        //         externalAssetIsPending: true,
-        //     };
-        //
-        // case constants.CHANGE_ADD_ASSET_DIALOG_STATUS:
-        //     return {
-        //         ...state,
-        //         ...action.payload.status,
-        //     };
+
+        case constants.REMOVE_TODO:
+            return (
+               state.filter(item => item.id !== action.payload)
+            );
 
         default:
             return state;

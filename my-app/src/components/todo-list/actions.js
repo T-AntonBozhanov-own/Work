@@ -10,8 +10,4 @@ export const removeTodo = id => ({
     payload: id,
 });
 
-export const setDone = id => ({
-    type: constants.SET_DONE_TODO,
-    payload: id,
-});
 

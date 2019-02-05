@@ -20,6 +20,7 @@ export default (state = initialState, action) => {
                 {
                     ...state,
                     isOpen: action.payload,
+                    data: '',
                 }
             );
 

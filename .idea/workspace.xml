@@ -2,21 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5af35c25-b49a-4390-b624-57643cab711a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/add-todo-modal/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/add-todo-modal/component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/add-todo-modal/constants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/add-todo-modal/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/add-todo-modal/reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/add-todo-modal/selectors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/todo-list/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/todo-list/component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/todo-list/constants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/todo-list/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/todo-list/reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/todo-list/selectors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/components/todo-row/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/reducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/add-todo-modal/tests/action.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/add-todo-modal/tests/component.test.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/add-todo-modal/tests/constants.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/add-todo-modal/tests/reducer.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/add-todo-modal/tests/selectors.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/todo-list/tests/action.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/todo-list/tests/component.test.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/todo-list/tests/constants.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/todo-list/tests/reducer.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/todo-list/tests/selectors.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/todo-row/tests/index.test.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/add-todo-modal/component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/add-todo-modal/component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/add-todo-modal/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/add-todo-modal/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/todo-list/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/todo-list/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/todo-list/component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/todo-list/component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/todo-list/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/todo-list/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/todo-list/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/todo-list/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/todo-list/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/todo-list/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/todo-row/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/todo-row/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,189 +40,106 @@
     <session id="-1274573318">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="3" />
+          <entry key="css" value="4" />
+          <entry key="gitignore" value="1" />
           <entry key="html" value="2" />
-          <entry key="js" value="15" />
+          <entry key="js" value="56" />
           <entry key="json" value="2" />
-          <entry key="jsx" value="11" />
+          <entry key="jsx" value="25" />
           <entry key="less" value="1" />
           <entry key="lock" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="3" />
+          <entry key="CSS" value="4" />
           <entry key="HTML" value="2" />
           <entry key="JSON" value="2" />
-          <entry key="JSX Harmony" value="11" />
-          <entry key="JavaScript" value="15" />
+          <entry key="JSX Harmony" value="25" />
+          <entry key="JavaScript" value="56" />
           <entry key="Less" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="yarn.lock" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="497" />
+          <entry key="css" value="607" />
           <entry key="html" value="16" />
-          <entry key="js" value="611" />
-          <entry key="jsx" value="2516" />
+          <entry key="js" value="1862" />
+          <entry key="jsx" value="3478" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="497" />
+          <entry key="CSS" value="607" />
           <entry key="HTML" value="16" />
-          <entry key="JSX Harmony" value="2516" />
-          <entry key="JavaScript" value="611" />
+          <entry key="JSX Harmony" value="3478" />
+          <entry key="JavaScript" value="1862" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/my-app/src/index.jsx">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
-                  <caret line="23" column="31" selection-start-line="23" selection-end-line="23" selection-end-column="31" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/my-app/src/components/todo-list/index.jsx">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="16" column="16" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="16" />
-                  <folding>
-                    <element signature="e#0#38#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/my-app/src/App.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="743">
-                  <caret line="63" column="1" lean-forward="true" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/my-app/src/components/add-todo-modal/component.jsx">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="720">
-                  <caret line="48" column="23" lean-forward="true" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
-                  <folding>
-                    <element signature="e#0#39#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/my-app/public/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="27" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/my-app/src/index.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="45">
-                  <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/my-app/src/components/add-todo-modal/index.jsx">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-                  <folding>
-                    <element signature="e#0#38#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/my-app/src/components/add-todo-modal/reducer.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
-                  <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/my-app/src/components/todo-list/component.jsx">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-                  <folding>
-                    <element signature="e#0#41#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/my-app/src/components/add-todo-modal/selectors.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/my-app/src/App.jsx">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-                  <folding>
-                    <element signature="e#0#41#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/my-app/src/components/todo-row/index.jsx">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
-                  <caret line="22" selection-start-line="22" selection-end-line="22" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-app/src/components/add-todo-modal/actions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-app/src/components/add-todo-modal/component.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-app/src/components/add-todo-modal/constants.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="43" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-app/src/components/add-todo-modal/reducer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/my-app/src/components/add-todo-modal/selectors.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -238,20 +164,34 @@
         <option value="$PROJECT_DIR$/my-app/src/components/todo-row/reducer.js" />
         <option value="$PROJECT_DIR$/my-app/src/App.jsx" />
         <option value="$PROJECT_DIR$/my-app/src/components/todo-list/selectors.js" />
-        <option value="$PROJECT_DIR$/my-app/src/components/todo-list/reducer.js" />
-        <option value="$PROJECT_DIR$/my-app/src/components/todo-row/index.jsx" />
         <option value="$PROJECT_DIR$/my-app/src/reducers.js" />
         <option value="$PROJECT_DIR$/my-app/src/components/add-todo-modal/constants.js" />
-        <option value="$PROJECT_DIR$/my-app/src/components/add-todo-modal/reducer.js" />
         <option value="$PROJECT_DIR$/my-app/src/components/add-todo-modal/actions.js" />
         <option value="$PROJECT_DIR$/my-app/public/index.html" />
-        <option value="$PROJECT_DIR$/my-app/src/components/todo-list/index.jsx" />
-        <option value="$PROJECT_DIR$/my-app/src/components/todo-list/component.jsx" />
         <option value="$PROJECT_DIR$/my-app/src/components/add-todo-modal/index.jsx" />
         <option value="$PROJECT_DIR$/my-app/src/index.css" />
         <option value="$PROJECT_DIR$/my-app/src/components/add-todo-modal/selectors.js" />
-        <option value="$PROJECT_DIR$/my-app/src/App.css" />
+        <option value="$PROJECT_DIR$/my-app/src/components/todo-list/reducer.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/todo-list/constants.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/todo-list/actions.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/todo-list/index.jsx" />
+        <option value="$PROJECT_DIR$/my-app/src/components/add-todo-modal/reducer.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/todo-list/component.jsx" />
         <option value="$PROJECT_DIR$/my-app/src/components/add-todo-modal/component.jsx" />
+        <option value="$PROJECT_DIR$/my-app/src/App.css" />
+        <option value="$PROJECT_DIR$/my-app/src/App.test.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/todo-row/tests/index.test.jsx" />
+        <option value="$PROJECT_DIR$/my-app/src/components/todo-row/index.jsx" />
+        <option value="$PROJECT_DIR$/my-app/src/components/todo-list/tests/component.test.jsx" />
+        <option value="$PROJECT_DIR$/my-app/src/components/todo-list/tests/reducer.test.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/todo-list/tests/selectors.test.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/add-todo-modal/tests/action.test.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/add-todo-modal/tests/component.test.jsx" />
+        <option value="$PROJECT_DIR$/my-app/src/components/add-todo-modal/tests/constants.test.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/add-todo-modal/tests/reducer.test.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/add-todo-modal/tests/selectors.test.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/todo-list/tests/action.test.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/todo-list/tests/constants.test.js" />
       </list>
     </option>
   </component>
@@ -310,30 +250,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Work" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Work" type="462c0819:PsiDirectoryNode" />
-              <item name="my-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="add-todo-modal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Work" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Work" type="462c0819:PsiDirectoryNode" />
-              <item name="my-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="todo-list" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Work" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Work" type="462c0819:PsiDirectoryNode" />
-              <item name="my-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="todo-row" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -343,15 +259,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/my-app/node_modules/react-scripts" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/my-app/src/components/add-todo-modal" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/my-app/src/components/todo-list" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/my-app/src/components/add-todo-modal" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -366,6 +283,84 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Jest.modal selectors test">
+    <configuration name="modal constants" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$/my-app" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/my-app/src/components/add-todo-modal/tests/constants.test.js" />
+      <test-names>
+        <test-name value="modal constants" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="modal reducer test" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$/my-app" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/my-app/src/components/add-todo-modal/tests/reducer.test.js" />
+      <test-names>
+        <test-name value="modal reducer test" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="modal selectors test" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$/my-app" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/my-app/src/components/add-todo-modal/tests/selectors.test.js" />
+      <test-names>
+        <test-name value="modal selectors test" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="todo-list component test (1)" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$/my-app" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/my-app/src/components/add-todo-modal/tests/component.test.jsx" />
+      <test-names>
+        <test-name value="todo-list component test" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="todo-list reducer test" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$/my-app" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/my-app/src/components/add-todo-modal/tests/reducer.test.js" />
+      <test-names>
+        <test-name value="todo-list reducer test" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Jest.todo-list component test (1)" />
+      <item itemvalue="Jest.modal constants" />
+      <item itemvalue="Jest.todo-list reducer test" />
+      <item itemvalue="Jest.modal reducer test" />
+      <item itemvalue="Jest.modal selectors test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.modal selectors test" />
+        <item itemvalue="Jest.modal reducer test" />
+        <item itemvalue="Jest.todo-list reducer test" />
+        <item itemvalue="Jest.modal constants" />
+        <item itemvalue="Jest.todo-list component test (1)" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -377,12 +372,54 @@
       <option name="presentableId" value="Default" />
       <updated>1549311536519</updated>
       <workItem from="1549311540792" duration="9849000" />
-      <workItem from="1549321517908" duration="5517000" />
+      <workItem from="1549321517908" duration="5740000" />
+      <workItem from="1549392764705" duration="9336000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="modal_actions - 2019.02.05 at 23h 07m 42s.xml">
+      <configuration name="modal actions" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="todo-list_component_test_(1) - 2019.02.05 at 23h 11m 13s.xml">
+      <configuration name="todo-list component test (1)" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="todo-list_component_test_(1) - 2019.02.05 at 23h 17m 27s.xml">
+      <configuration name="todo-list component test (1)" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="modal_constants - 2019.02.05 at 23h 18m 16s.xml">
+      <configuration name="modal constants" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="todo-list_reducer_test - 2019.02.05 at 23h 22m 32s.xml">
+      <configuration name="todo-list reducer test" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="modal_reducer_test - 2019.02.05 at 23h 23m 21s.xml">
+      <configuration name="modal reducer test" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="modal_reducer_test - 2019.02.05 at 23h 23m 56s.xml">
+      <configuration name="modal reducer test" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="modal_selectors_test - 2019.02.05 at 23h 25m 26s.xml">
+      <configuration name="modal selectors test" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="modal_selectors_test - 2019.02.05 at 23h 25m 54s.xml">
+      <configuration name="modal selectors test" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="modal_selectors_test - 2019.02.05 at 23h 26m 27s.xml">
+      <configuration name="modal selectors test" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15366000" />
+    <option name="totallyTimeSpent" value="24925000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1326" extended-state="6" />
@@ -392,14 +429,14 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3298217" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39951378" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3298217" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.17990276" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.34440842" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -416,16 +453,6 @@
     <entry file="file://$PROJECT_DIR$/my-app/yarn.lock">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/serviceWorker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="65" column="48" lean-forward="true" selection-start-line="65" selection-start-column="48" selection-end-line="65" selection-end-column="48" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-app/public/manifest.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -433,51 +460,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/App.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/components/todo-list/actions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/components/todo-list/selectors.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/components/todo-list/reducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/components/todo-list/constants.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/components/todo-row/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
@@ -491,23 +473,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/components/add-todo-modal/constants.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/components/add-todo-modal/actions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
+        <state relative-caret-position="240">
           <caret line="23" column="31" selection-start-line="23" selection-end-line="23" selection-end-column="31" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -515,20 +483,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/components/todo-list/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-app/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="27" />
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -539,12 +497,243 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/add-todo-modal/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="728">
+          <caret line="91" column="18" selection-start-line="91" selection-start-column="18" selection-end-line="91" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/App.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/node_modules/enzyme/build/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/node_modules/enzyme/build/validateAdapter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/serviceWorker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="65" column="48" selection-start-line="65" selection-start-column="48" selection-end-line="65" selection-end-column="48" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/todo-row/tests/index.test.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" lean-forward="true" selection-end-line="45" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/todo-list/constants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/todo-list/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/components/todo-list/component.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        <state relative-caret-position="270">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="28" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/todo-row/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/todo-list/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/todo-list/selectors.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/add-todo-modal/actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/add-todo-modal/component.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/add-todo-modal/constants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="43" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/add-todo-modal/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/add-todo-modal/tests/action.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="40" lean-forward="true" selection-start-column="40" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/add-todo-modal/tests/component.test.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/todo-list/tests/component.test.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="3" lean-forward="true" selection-start-line="46" selection-start-column="3" selection-end-line="46" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/todo-list/tests/constants.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/todo-list/tests/reducer.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/todo-list/actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/todo-list/tests/selectors.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="2" lean-forward="true" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/App.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/add-todo-modal/tests/constants.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/add-todo-modal/tests/reducer.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="3" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/add-todo-modal/tests/selectors.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="2" lean-forward="true" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/todo-list/tests/action.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -553,40 +742,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="743">
-          <caret line="63" column="1" lean-forward="true" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/components/add-todo-modal/reducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/components/add-todo-modal/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/components/add-todo-modal/component.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="23" lean-forward="true" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

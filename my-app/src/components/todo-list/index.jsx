@@ -13,7 +13,6 @@ const mapStateToProps = state => ({
 const mapDispatchToProps = {
     addTodo: todoActions.addTodo,
     removeTodo: todoActions.removeTodo,
-    setDone: todoActions.setDone,
     openAddModal: modalActions.changeIsOpen,
 };
 

@@ -4,6 +4,9 @@
   "private": true,
   "dependencies": {
     "create-react-scripts-less": "^0.1.5",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-15": "^1.3.0",
+    "enzyme-adapter-react-16": "^1.9.0",
     "less": "^3.9.0",
     "less-loader": "^4.1.0",
     "moment": "^2.24.0",
@@ -12,7 +15,9 @@
     "react-dom": "^16.7.0",
     "react-redux": "^6.0.0",
     "react-scripts": "2.1.3",
-    "redux": "^4.0.1"
+    "react-test-renderer": "^16.7.0",
+    "redux": "^4.0.1",
+    "sinon": "^7.2.3"
   },
   "scripts": {
     "start": "react-scripts start",
